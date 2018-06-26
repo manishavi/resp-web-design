@@ -1,0 +1,30 @@
+body {
+    background-color: grey;
+}
+
+@media screen and (min-width: 320px) {
+    body {
+        background-color: rgb(146, 218, 228);
+    }
+}
+@media screen and (min-width: 550px) {
+    body {
+        background-color: rgb(211, 201, 67);
+    }
+}
+@media screen and (min-width: 768px) {
+    body {
+        background-color: rgb(233, 180, 81);
+    }
+}
+@media screen and (min-width: 960px) {
+    body {
+        background-color: rgb(221, 84, 84);
+    }
+}
+
+@media screen and (max-width: 400px) {
+    h1 {
+        color: rgb(74, 17, 207);
+    }
+}
